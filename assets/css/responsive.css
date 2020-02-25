@@ -1,0 +1,49 @@
+/*
+	Responsive for phone width < 700px
+*/
+@media only screen and (max-width: 700px) {
+	h3.panel-title {
+		font-size: 1em;
+		text-align: center;
+		margin-top: 2em;
+		margin-left: 0.8em;
+		margin-bottom: 0.5em;
+	}
+
+	div.dataTables_wrapper div.dataTables_filter {
+		float: left;
+		margin-top: 1em;
+	}
+
+	select.form-control-sm:not([size]):not([multiple]) {
+		margin-left: 1.1em;
+		width: 45%;
+	}
+
+	table.dataTable {
+		margin-top: 1.5em !important;
+	}	
+
+	div.dataTables_wrapper div.dataTables_info {
+		padding-top: 2em !important;
+	}
+
+	div.dataTables_wrapper div.dataTables_paginate {
+		margin-top: 0.8em !important;
+	}			    	
+
+	.box-typical.box-typical-dashboard .box-typical-header {
+		margin-bottom: 1.8em;
+	}
+
+	.pagination {
+		font-size: 0.5em;
+	}
+
+	.exp-button {
+		margin-top: 30px;
+		text-align: center;
+		margin-bottom: 20px;
+	}
+
+}
